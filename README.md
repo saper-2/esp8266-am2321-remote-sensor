@@ -19,7 +19,8 @@ I have tested this "installation" of my scripts :smile:
 6. Hard-reset ESP and compile ```httpd-sensor.lua```
 7. Upload ```configServer1.lua```
 8. Hard-reset ESP and compile ```configServer1.lua```
-9. upload ```init.lua``` and hard-reset
+9. Now you can configure sensor if you want (connect to created SSID by ESP and save configuration)
+10. upload ```init.lua``` and hard-reset
 
 Now if you didn't connected your ESP to your WiFi. ESP should start config server by creating new WiFi network with "SvrSens-" prefix and 3 last bytes of MAC address.
 
