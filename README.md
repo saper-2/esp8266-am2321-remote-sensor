@@ -28,5 +28,5 @@ Now connect to this network (I have used tablet) and open in web browser address
 If you want to reconfigure ESP with this sensor-server, then the fastest way is to connect serial console and rename ```init.lua``` to anything else e.g.: ```=file.rename("init.lua","init0.lua")```, then hard-reset ESP and manually run ```dofile("configServer1.lc")```` . 
 Or walking out of range your AP should should also load from init *configServer1* but I didn't tested it.
 
-<img src="https://github.com/saper-2/esp8266-am2321-remote-sensor/blob/master/Screenshots/esp8266-remo-sensor-n7-httpd-sensor.jpg" title="Screenshot of www page" width="400px" /> <img src="https://github.com/saper-2/esp8266-am2321-remote-sensor/blob/master/Screenshots/esp8266-remo-sensor-n7-httpd-sensor-xml.jpg" title="Screenshot of www page in xml" width="400px"/>
+<img src="https://github.com/saper-2/esp8266-am2321-remote-sensor/blob/master/Screenshots/esp8266-remo-sensor-n7-httpd-sensor.jpg" title="Screenshot of www page" width="550px" /> <img src="https://github.com/saper-2/esp8266-am2321-remote-sensor/blob/master/Screenshots/esp8266-remo-sensor-n7-httpd-sensor-xml.jpg" title="Screenshot of www page in xml" width="550px"/>
 
